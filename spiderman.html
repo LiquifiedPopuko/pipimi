@@ -14,18 +14,12 @@
         body {
             background-color: palegoldenrod;
         }
-        #title {
+        .text {
             font-family: "Comic Sans MS"; 
             font-size: xx-large;
             text-align: center;
         }
-        #name {
-            margin-top: -1%;
-            font-family: "Comic Sans MS"; 
-            font-size: xx-large;
-            text-align: center;
-        }
-        #job {
+        .job {
             margin-top: -1%;
             font-family: "Comic Sans MS"; 
             font-size: xx-large;
@@ -34,16 +28,46 @@
             text-align: center;
             -webkit-text-stroke: 1px red;
         }
+        .button {
+        background-color: mediumslateblue; /* Green */
+        border: 2px solid mediumslateblue;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        display: block;
+        font-family: "Comic Sans MS";
+        font-size: 20px;
+        transition-duration: 0.4s;
+        border-radius: 2px;
+        margin: 0 auto;
+        margin-top: 2%;
+      }
+      .button:hover {
+        background-color: palegoldenrod; /* Green */
+        border: 2px solid mediumslateblue;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        display: block;
+        font-family: "Comic Sans MS";
+        font-size: 20px;
+        border-radius: 2px;
+        margin: 0 auto;
+        margin-top: 2%;
+      }
     </style>
   </head>
   <body>
     <img src="Content\spiderman.gif">
-    <p id="title"><b>Emissary from hell</b></p>
-    <p id="name"><i>Spiderman!</i></p>
-    <ol id="job">
+    <p class="text"><b>Emissary from hell</b></p>
+    <p class="text" style="margin-top: -1%;"><i>Spiderman!</i></p>
+    <ol class="job">
       <li>Pizza delivery boy</li>
       <li>Very smart scientist</li>
       <li>Superhero</li>
     </ol>
+    <a href="index.html" style="text-decoration: none;">
+      <button class="button">Transform!</button>
+    </a>
   </body>
 </html>
