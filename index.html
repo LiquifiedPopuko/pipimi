@@ -3,34 +3,62 @@
   <head>
     <title>My information</title>
     <style>
-        img {
-            display: block; 
-            width: 500px; 
-            border-radius: 350px; 
-            margin-left: auto; 
-            margin-right: auto;
-            margin-top: 1%;
-            margin-bottom: 1%;
-        }
-        body {
-            background-color: palegoldenrod;
-        }
-        .pinktext {
-            margin-top: 0;
-            margin-bottom: 10px;
-            font-family: "Comic Sans MS"; 
-            font-size: xx-large;
-            color: mediumvioletred;
-            text-align: center;
-        }
+      img {
+        display: block;
+        width: 500px;
+        border-radius: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+        margin-bottom: 1%;
+      }
+      body {
+        background-color: palegoldenrod;
+      }
+      .pinktext {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-family: "Comic Sans MS";
+        font-size: xx-large;
+        color: mediumvioletred;
+        text-align: center;
+      }
+      .button {
+        background-color: mediumslateblue; /* Green */
+        border: 2px solid mediumslateblue;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        display: block;
+        font-family: "Comic Sans MS";
+        font-size: 20px;
+        transition-duration: 0.4s;
+        border-radius: 2px;
+        margin: 0 auto;
+        margin-top: 2%;
+      }
+      .button:hover {
+        background-color: palegoldenrod; /* Green */
+        border: 2px solid mediumslateblue;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        display: block;
+        font-family: "Comic Sans MS";
+        font-size: 20px;
+        border-radius: 2px;
+        margin: 0 auto;
+        margin-top: 2%;
+      }
     </style>
   </head>
   <body>
-    <img src="Content\Me.jpg">
+    <img src="Content\Me.jpg" />
     <p class="pinktext"><b>642115024</b></p>
     <p class="pinktext"><b>Name:</b> Thaiphat Sukhumpraisan</p>
     <p class="pinktext"><b>Date of Birth:</b> December 1<sup>st</sup>, 2002</p>
     <p class="pinktext"><b>Wear glasses:</b> Yes</p>
     <p class="pinktext"><b>Software Engineering, Chiang Mai University</b></p>
+    <button class="button" type="button">Transform!</button>
   </body>
 </html>
